@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Accueil
+title: Home
 permalink: /
 ---
 
@@ -8,4 +8,4 @@ permalink: /
 
 Under construction!
 
-Visit [my other webpege](https://www-public.imtbs-tsp.eu/~castella/) for more information.
+Visit [my other webpage](https://www-public.imtbs-tsp.eu/~castella/) for more information.

@@ -16,10 +16,13 @@
     <h2>{{ site.author.name }}</h2>
     <p>{{ site.author.title }}</p>
     <p>
-      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br>
-      <a href="https://github.com/username">GitHub</a><br>
-      <a href="https://orcid.org/0000-0000-0000-0000">ORCID</a><br>
-      <a href="https://hal.archives-ouvertes.fr/">HAL</a>
+      <!-- <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br> -->
+      <a href="mailto:{{ site.author.email | replace: '@', ' [at] ' | replace: '.', ' [dot] ' }}"> {{ site.author.email | replace: '@', ' [at] ' | replace: '.', ' [dot] ' }} </a><br><br>
+
+      <a href="https://scholar.google.com/citations?user=XJeA564AAAAJ&hl=fr&oi=ao">Google Scholar</a><br>
+      <a href="https://github.com/marc-castella">GitHub</a><br>
+      <a href="https://orcid.org/0000-0003-0690-3676">ORCID</a><br>
+      <!-- <a href="https://hal.archives-ouvertes.fr/">HAL</a> -->
     </p>
   </aside>
 

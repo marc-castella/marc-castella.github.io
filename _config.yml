@@ -1,8 +1,8 @@
 title: "Marc Castella"
 author:
   name: "Marc Castella"
-  title: "Researcher"
-  email: "marc.castella@example.com"
+  title: "Professor<br> Télécom SudParis"
+  email: "marc.castella at telecom-sudparis.eu"
 
 theme: null
 markdown: kramdown

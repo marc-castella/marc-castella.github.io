@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Enseignement
+title: Teaching
 ---
 
-# Enseignement
+# Teaching
 
 Under construction!

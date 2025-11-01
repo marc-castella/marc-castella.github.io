@@ -6,7 +6,7 @@ title: Contact
 # Contact
 
 ## 📧 Email
-[marc.castella@telecom-sudparis.eu](mailto:marc.castella@telecom-sudparis.eu)
+{{ site.author.email | replace: "@", " [at] " | replace: ".", " [dot] " }}
 
 ---
 

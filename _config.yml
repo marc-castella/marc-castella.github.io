@@ -1,20 +1,11 @@
-title: Marc Castella
-description: Page personnelle académique
-baseurl: ""
-url: "https://marc-castella.github.io"
-
-# Pour future migration AcademicPages
-collections:
-  publications:
-    output: true
-  projects:
-    output: true
-
-# Informations auteur
+title: "Marc Castella"
 author:
-  name: Marc Castella
-  email: marc.castella@telecom-sudparis.eu
+  name: "Marc Castella"
+  title: "Researcher"
+  email: "marc.castella@example.com"
 
-# Layout par défaut
-markdown: kramdown
 theme: null
+markdown: kramdown
+
+# Base navigation
+collections: []

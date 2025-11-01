@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Enseignement
-permalink: /enseignement/
 ---
 
 # Enseignement

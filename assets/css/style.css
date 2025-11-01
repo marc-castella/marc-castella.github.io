@@ -1,33 +1,90 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  max-width: 800px;
-  margin: 40px auto;
-  line-height: 1.6;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
+  margin: 0;
+  background: #fff;
 }
 
-header h1 {
-  font-size: 1.8em;
-  margin-bottom: 0.3em;
+/* Layout global */
+.page-container {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 100vh;
 }
 
-nav a {
-  text-decoration: none;
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #f9f9f9;
+  border-right: 1px solid #ddd;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.sidebar img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.sidebar a {
   color: #003366;
-  margin: 0 5px;
+  text-decoration: none;
 }
 
-nav a:hover {
+.sidebar a:hover {
   text-decoration: underline;
 }
 
-main {
-  margin-top: 2em;
+.sidebar img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-bottom: 1em;
 }
 
+/* Zone principale */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Barre de navigation */
+.top-nav {
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  padding: 0.8em 2em;
+  display: flex;
+  gap: 2em;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #003366;
+  font-size: 18px;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contenu */
+.content {
+  padding: 2em;
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+/* Footer */
 footer {
   text-align: center;
-  font-size: 0.8em;
   color: #666;
-  margin-top: 3em;
+  padding: 1em 0;
+  border-top: 1px solid #eee;
+  font-size: 14px;
 }

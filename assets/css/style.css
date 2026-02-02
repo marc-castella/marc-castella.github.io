@@ -88,3 +88,21 @@ footer {
   border-top: 1px solid #eee;
   font-size: 14px;
 }
+
+/* Style pour le lien "Back to Teaching" */
+.back-link {
+  font-size: 1.2em;        /* plus gros */
+  font-weight: bold;       /* gras */
+  margin: 1em 0;           /* espace avant et après */
+}
+
+.back-link a {
+  text-decoration: none;
+  color: #003366;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+  color: #0055aa;
+}
+

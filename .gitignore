@@ -48,7 +48,6 @@ __pycache__/
 
 # Miscellaneous temporary export or build files
 *.csv
-*.pdf
 *.aux
 *.out
 *.synctex.gz

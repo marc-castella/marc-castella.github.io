@@ -1,0 +1,11 @@
+title: "Marc Castella"
+author:
+  name: "Marc Castella"
+  title: "Professor<br> Télécom SudParis"
+  email: "marc.castella at telecom-sudparis.eu"
+
+theme: null
+markdown: kramdown
+
+# Base navigation
+collections: []
